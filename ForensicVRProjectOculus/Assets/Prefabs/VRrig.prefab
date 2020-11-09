@@ -686,6 +686,7 @@ GameObject:
   - component: {fileID: 6339873890125196386}
   - component: {fileID: 6339873890125196385}
   - component: {fileID: 6339873890934379935}
+  - component: {fileID: 247596432}
   m_Layer: 8
   m_Name: leftController
   m_TagString: Untagged
@@ -724,12 +725,12 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_PoseProvider: {fileID: 0}
   m_ControllerNode: 4
-  m_SelectUsage: 5
+  m_SelectUsage: 3
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
-  m_ModelPrefab: {fileID: 7389609540482862083}
-  m_ModelTransform: {fileID: 7389609540482862083}
+  m_ModelPrefab: {fileID: 0}
+  m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
@@ -793,11 +794,23 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6339873890125196391}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.08
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &247596432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6339873890125196391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c6a00ac07490c947b65d0dffdb6a549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6339873890236985568
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,8 +865,8 @@ MonoBehaviour:
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
-  m_ModelPrefab: {fileID: 5735110892789863102}
-  m_ModelTransform: {fileID: 5735110892789863102}
+  m_ModelPrefab: {fileID: 0}
+  m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
@@ -1269,6 +1282,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.13413893
       objectReference: {fileID: 0}
+    - target: {fileID: 7906127645874316192, guid: 6e25d8307c2a84b4e91f76aba1241e50,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: da579cdbca4a41a41b06a8b554a0c868, type: 2}
     m_RemovedComponents:
     - {fileID: 146732531614465363, guid: 6e25d8307c2a84b4e91f76aba1241e50, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6e25d8307c2a84b4e91f76aba1241e50, type: 3}
@@ -1290,6 +1308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: leftControllerCube
       objectReference: {fileID: 0}
+    - target: {fileID: 4904533310074363231, guid: d80cfd5f53cc365408a56b1e251bba73,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: da579cdbca4a41a41b06a8b554a0c868, type: 2}
     - target: {fileID: 8987733151823373591, guid: d80cfd5f53cc365408a56b1e251bba73,
         type: 3}
       propertyPath: m_LocalPosition.x
