@@ -1184,6 +1184,154 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93f5992ff541d844a9221c2599956e47, type: 3}
+--- !u!1001 &1764497939
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6339873890934379933}
+    m_Modifications:
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0075
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0343
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0359
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0050655385
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9525829
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.30423328
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0015111568
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 35.425003
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.98601
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.614
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024951872544157354, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_Name
+      value: Oculus Quest Controller - Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024951872544157354, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cfa8dc06d611ba340b06bbefba58ee46, type: 3}
+--- !u!1001 &1869646553
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6339873890934379934}
+    m_Modifications:
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0075
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0343
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0359
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0050655385
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9525829
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.30423328
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0015111568
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 35.425003
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.98601
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.614
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245457492171364763, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_Name
+      value: Oculus Quest Controller - Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245457492171364763, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c836783e3928a624e9ff9c70d4f21606, type: 3}
 --- !u!1001 &6339873890934379932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1199,16 +1347,33 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 329594941}
+    - target: {fileID: 2725087755588498991, guid: d8c5cebc3d8303740b8aeec0de3829c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6339873890125196385, guid: d8c5cebc3d8303740b8aeec0de3829c2,
         type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 329594941}
+    - target: {fileID: 6339873890125196386, guid: d8c5cebc3d8303740b8aeec0de3829c2,
+        type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 8487514463063833339, guid: bc9e53ef4d1c7b644a6d88962fff9d73,
+        type: 3}
     - target: {fileID: 6339873890236985570, guid: d8c5cebc3d8303740b8aeec0de3829c2,
         type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 329594941}
+    - target: {fileID: 6339873890236985571, guid: d8c5cebc3d8303740b8aeec0de3829c2,
+        type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 8487514463063833339, guid: 4ce2c7804f267d84ea07486b2591e3cb,
+        type: 3}
     - target: {fileID: 6339873891483687249, guid: d8c5cebc3d8303740b8aeec0de3829c2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1269,5 +1434,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: VRrig
       objectReference: {fileID: 0}
+    - target: {fileID: 6528981540947378630, guid: d8c5cebc3d8303740b8aeec0de3829c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8c5cebc3d8303740b8aeec0de3829c2, type: 3}
+--- !u!4 &6339873890934379933 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6339873890236985569, guid: d8c5cebc3d8303740b8aeec0de3829c2,
+    type: 3}
+  m_PrefabInstance: {fileID: 6339873890934379932}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6339873890934379934 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6339873890125196384, guid: d8c5cebc3d8303740b8aeec0de3829c2,
+    type: 3}
+  m_PrefabInstance: {fileID: 6339873890934379932}
+  m_PrefabAsset: {fileID: 0}
