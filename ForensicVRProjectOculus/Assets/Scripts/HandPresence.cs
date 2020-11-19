@@ -14,7 +14,8 @@ public class HandPresence : MonoBehaviour
     private GameObject spawnedController;
     private GameObject spawnedHandModel;
     private Animator handAnimator;
-    
+
+    // Start is called before the first frame update
     void Start()
     {
         TryInitialize();
@@ -23,7 +24,7 @@ public class HandPresence : MonoBehaviour
     void TryInitialize()
     {
         List<InputDevice> devices = new List<InputDevice>();
-        
+
         InputDevices.GetDevicesWithCharacteristics(controllerCharacteristics, devices);
 
         foreach (var item in devices)
@@ -41,17 +42,17 @@ public class HandPresence : MonoBehaviour
             }
             else
             {
-                Debug.LogError("Did not find corresponding controller model");
-                spawnedController = Instantiate(controllerPrefabs[0], transform);
+                Debug.Log("Did not find corresponding controller model");
             }
 
             spawnedHandModel = Instantiate(handModelPrefab, transform);
             handAnimator = spawnedHandModel.GetComponent<Animator>();
         }
     }
+
     void UpdateHandAnimation()
     {
-        if (targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
+        if(targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
         {
             handAnimator.SetFloat("Trigger", triggerValue);
         }
@@ -59,6 +60,7 @@ public class HandPresence : MonoBehaviour
         {
             handAnimator.SetFloat("Trigger", 0);
         }
+
         if (targetDevice.TryGetFeatureValue(CommonUsages.grip, out float gripValue))
         {
             handAnimator.SetFloat("Grip", gripValue);
@@ -68,10 +70,11 @@ public class HandPresence : MonoBehaviour
             handAnimator.SetFloat("Grip", 0);
         }
     }
+
     // Update is called once per frame
     void Update()
     {
-        if (!targetDevice.isValid)
+        if(!targetDevice.isValid)
         {
             TryInitialize();
         }
@@ -79,33 +82,19 @@ public class HandPresence : MonoBehaviour
         {
             if (showController)
             {
-                spawnedHandModel.SetActive(false);
-                spawnedController.SetActive(true);
+                if(spawnedHandModel)
+                    spawnedHandModel.SetActive(false);
+                if(spawnedController)
+                    spawnedController.SetActive(true);
             }
             else
             {
-                spawnedHandModel.SetActive(true);
-                spawnedController.SetActive(false);
+                if (spawnedHandModel)
+                    spawnedHandModel.SetActive(true);
+                if (spawnedController)
+                    spawnedController.SetActive(false);
                 UpdateHandAnimation();
             }
         }
-        
-        /*//targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
-        if (targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue) && primaryButtonValue)
-        {
-            Debug.Log("Pressing primary button");
-        }
-
-        //targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue);
-        if (targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue) && triggerValue > 0.1f)
-        {
-            Debug.Log("Trigger Pressed " + triggerValue);
-        }
-
-        //targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 primary2DAxisValue);
-        if (targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 primary2DAxisValue) && primary2DAxisValue != Vector2.zero)
-        {
-            Debug.Log("Primary touchpad " + primary2DAxisValue);
-        }*/
     }
 }
