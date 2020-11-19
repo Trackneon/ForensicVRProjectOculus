@@ -7,41 +7,32 @@ public class FingerprintPowder : MonoBehaviour
 {
     public GameObject fingerprint;
     public GameObject powderBrush;
-    public Renderer colorRender;
-    public float delay = 1f;
-    public float touchNum = 0.01f;
+    public float colorRender;
+    public float delay = 0f;
+    public float touchNum = 0.1f;
+    public Color powderColor;
     public void Start()
-    {
-       colorRender = fingerprint.GetComponent<Renderer>();
+    { 
+        fingerprint.GetComponent<Renderer>().material.color = powderColor;
+        Debug.Log("powder color is " + powderColor);
     }
 
     public void OnTriggerEnter(Collider other)
     {
-        StartCoroutine(AddPowder());
+        StartCoroutine(PowderIt());
     }
-
-    IEnumerator AddPowder()
+   
+    IEnumerator PowderIt()
     {
-
+        touchNum += 0.1f;
         if (powderBrush.gameObject.tag == "powderBrush" && touchNum <= 1)
         {
-            yield return new WaitForSeconds(delay);
-            Color powderColor = colorRender.material.color;
-            powderColor.a = touchNum;
-            colorRender.material.color = powderColor;
+            fingerprint.GetComponent<Renderer>().material.color = new Color(0.142f, 0.142f,0.142f, touchNum);
+            
             Debug.Log("touch num is "+touchNum);
-            touchNum += 0.01f;
-            yield break;
+            Debug.Log("alpha value is "+ colorRender);
+            
+            yield return new WaitForSeconds(delay);
         }
-        
-        
-        /* triggerCount += 1;
-        material = materialsList[triggerCount];
-        if (powderBrush.gameObject.tag == "powderBrush")
-        {
-            fingerprint.GetComponent<Renderer>().material = material;
-        }*/
-       
-        
     }
 }

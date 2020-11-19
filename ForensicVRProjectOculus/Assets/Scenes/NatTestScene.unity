@@ -1100,8 +1100,8 @@ GameObject:
   - component: {fileID: 250983435}
   - component: {fileID: 250983434}
   - component: {fileID: 250983433}
-  - component: {fileID: 250983432}
   - component: {fileID: 250983436}
+  - component: {fileID: 250983432}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -1116,8 +1116,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250983430}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.42, y: 2.683, z: 2.389}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.4200001, y: 2.683, z: 2.389}
   m_LocalScale: {x: 0.079085454, y: 0.079085454, z: 0.079085454}
   m_Children: []
   m_Father: {fileID: 1012392776}
@@ -1227,7 +1227,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fingerprint: {fileID: 250983430}
   powderBrush: {fileID: 2068548043}
-  colorRender: {fileID: 250983434}
+  colorRender: 0
+  delay: 0.1
+  touchNum: 0.1
+  powderColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0}
 --- !u!1 &329594940
 GameObject:
   m_ObjectHideFlags: 0
