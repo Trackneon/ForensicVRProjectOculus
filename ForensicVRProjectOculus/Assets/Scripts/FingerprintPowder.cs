@@ -5,25 +5,35 @@ using UnityEngine;
 
 public class FingerprintPowder : MonoBehaviour
 {
-    public Material material;
-    public List<Material> materialsList;
-    public int triggerCount = 0;
     public GameObject fingerprint;
     public GameObject powderBrush;
+    public Renderer colorRender;
 
     public void Start()
     {
-        material = fingerprint.GetComponent<Renderer>().material;
+       colorRender = fingerprint.GetComponent<Renderer>();
     }
 
     public void AddPowder()
     {
-        triggerCount += 1;
+        if (powderBrush.gameObject.tag == "powderBrush")
+        {
+            for (float touchNum = 1f; touchNum >= 0; touchNum += 0.1f)
+            {
+                Color powderColor = colorRender.material.color;
+                powderColor.a = touchNum;
+                colorRender.material.color = powderColor;
+            }
+        }
+        
+        
+        /* triggerCount += 1;
         material = materialsList[triggerCount];
         if (powderBrush.gameObject.tag == "powderBrush")
         {
             fingerprint.GetComponent<Renderer>().material = material;
-        }
+        }*/
+       
         
     }
 }
