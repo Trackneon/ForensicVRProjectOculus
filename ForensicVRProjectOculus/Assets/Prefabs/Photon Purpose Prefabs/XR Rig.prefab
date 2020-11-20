@@ -340,6 +340,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8787562842535414331}
   - component: {fileID: 8787562842535414330}
+  - component: {fileID: 7135790320640668079}
+  - component: {fileID: -2554048755837693363}
   m_Layer: 0
   m_Name: XR Rig
   m_TagString: Untagged
@@ -380,6 +382,36 @@ MonoBehaviour:
   m_TrackingOriginMode: 2
   m_TrackingSpace: 3
   m_CameraYOffset: 1.36144
+--- !u!114 &7135790320640668079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8787562842535414329}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Timeout: 10
+  m_XRRig: {fileID: 0}
+--- !u!114 &-2554048755837693363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8787562842535414329}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8be0563e4d8db4d89b358d442eef81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftTeleportRayInteractor: {fileID: 0}
+  rightTeleportRayInteractor: {fileID: 0}
+  teleportActivateButton: 0
+  activationThreshold: 0
 --- !u!1 &8787562842657054012
 GameObject:
   m_ObjectHideFlags: 0
