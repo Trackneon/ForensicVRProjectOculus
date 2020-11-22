@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Tyler'sScene.unity
     guid: 5f88a3cd8dfb8cc4ba7df2a883cf5287
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d68c3eefd73b2974db8b474ffbf9a6f4,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f4b606fc9f585f048acbb935bbbcb10d,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1e7db8d308c06674eb12bec50632c463,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0c9eb01722facdc40acaa662d23807dc,
       type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: ae919c9355d91354c80a44641883dcae,
       type: 2}
