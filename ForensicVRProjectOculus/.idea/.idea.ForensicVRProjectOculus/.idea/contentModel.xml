@@ -6,9 +6,6 @@
     <e p="C:\Users\nzoll\OneDrive\Documents\GitHub\ForensicVRProjectOculus\ForensicVRProjectOculus" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="NetworkManager.cs" t="Include" />
-        <e p="NetworkPlayer.cs" t="Include" />
-        <e p="NetworkPlayerSpawner.cs" t="Include" />
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
             <e p="Code" t="Include">
@@ -378,11 +375,15 @@
           <e p="FingerprintPowder.cs" t="Include" />
           <e p="HandPresence.cs" t="Include" />
           <e p="LocomotionController.cs" t="Include" />
+          <e p="NetworkManager.cs" t="Include" />
+          <e p="NetworkPlayer.cs" t="Include" />
+          <e p="NetworkPlayerSpawner.cs" t="Include" />
+          <e p="Paintable.cs" t="Include" />
           <e p="ParticleEffects.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
+          <e p="XRGrabNetworkInteractable.cs" t="Include" />
           <e p="XROffsetGrabInteractable.cs" t="Include" />
         </e>
-        <e p="XRGrabNetworkInteractable.cs" t="Include" />
       </e>
       <e p="ForensicVRProjectOculus.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

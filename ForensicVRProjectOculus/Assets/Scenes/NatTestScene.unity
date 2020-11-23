@@ -4515,6 +4515,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7478117240358956075, guid: b92931b0bce2afc4d83147e097157093,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7478117240358956075, guid: b92931b0bce2afc4d83147e097157093,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8590037848261419569, guid: b92931b0bce2afc4d83147e097157093,
         type: 3}
       propertyPath: m_IsActive
@@ -7010,7 +7020,18 @@ MonoBehaviour:
       m_Calls: []
   m_OnActivate:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2068548047}
+        m_MethodName: PaintWithPowder
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
@@ -7076,6 +7097,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.8927245, y: 12.5154705, z: 5.053738}
   m_Center: {x: 0.000011920931, y: -0.00000071525585, z: 0.000018358232}
+--- !u!114 &2068548047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068548043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d041c76d272a9474fa1b7e575262b408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powder: {fileID: 1310065341516486874, guid: 84de284154e5b2e48b58753518f2bcf2, type: 3}
 --- !u!1 &2068755839
 GameObject:
   m_ObjectHideFlags: 0

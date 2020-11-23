@@ -13,7 +13,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Paintable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,10 +29,11 @@
         <option value="$PROJECT_DIR$/Assets/HandPresence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
       </list>
     </option>
   </component>
@@ -95,6 +98,7 @@
       <workItem from="1605573722217" duration="2852000" />
       <workItem from="1605747813976" duration="2690000" />
       <workItem from="1605751777819" duration="7360000" />
+      <workItem from="1606165130614" duration="3104000" />
     </task>
     <servers />
   </component>
