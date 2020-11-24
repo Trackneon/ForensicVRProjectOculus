@@ -1116,13 +1116,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250983430}
-  m_LocalRotation: {x: -0, y: 0.81520134, z: -0, w: 0.5791778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.4200001, y: 2.683, z: 2.389}
   m_LocalScale: {x: 0.079085454, y: 0.079085454, z: 0.079085454}
   m_Children: []
   m_Father: {fileID: 1012392776}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 109.215004, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &250983432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6088,7 +6088,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1611330296}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: tipTransform
   m_TagString: Untagged
   m_Icon: {fileID: 0}

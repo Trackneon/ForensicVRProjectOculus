@@ -10,14 +10,14 @@ public class Paintable : MonoBehaviour
     public Vector3 tipPoint;
     public Transform transform;
 
-    private void Start()
+    /*private void Start()
     {
         transform = GetComponent<Transform>();
-    }
+    }*/
 
     public void PaintWithPowder()
     {
-        Instantiate(powder, transform.localPosition, Quaternion.identity, transform);
+        Instantiate(powder, new Vector3(), Quaternion.identity);
         Debug.Log("powdering");
     }
 }
