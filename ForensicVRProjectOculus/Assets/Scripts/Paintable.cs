@@ -7,17 +7,20 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class Paintable : MonoBehaviour
 {
     public GameObject powder;
-    public Vector3 tipPoint;
     public Transform transform;
-
-    /*private void Start()
+    
+    public void OnTriggerEnter(Collider other)
     {
-        transform = GetComponent<Transform>();
-    }*/
+        if (other.tag == "canPowder")
+        {
+            PaintWithPowder(); 
+        }
+        
+    }
 
     public void PaintWithPowder()
     {
-        Instantiate(powder, new Vector3(), Quaternion.identity);
+        Instantiate(powder, transform.position, transform.rotation);
         Debug.Log("powdering");
     }
 }
