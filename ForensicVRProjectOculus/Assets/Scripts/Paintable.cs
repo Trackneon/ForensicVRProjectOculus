@@ -9,6 +9,7 @@ public class Paintable : MonoBehaviour
 
     public void PaintWithPowder()
     {
-        var go = Instantiate(powder, Vector3.up * 0.1f, Quaternion.identity, transform);
+        Instantiate(powder, Vector3.up * 0.1f, Quaternion.identity, transform);
+        Debug.Log("powdering");
     }
 }
