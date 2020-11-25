@@ -6,6 +6,7 @@
     <e p="C:\Users\nzoll\OneDrive\Documents\GitHub\ForensicVRProjectOculus\ForensicVRProjectOculus" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ALSColorSwitch.cs" t="Include" />
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
             <e p="Code" t="Include">
@@ -384,6 +385,7 @@
           <e p="XRGrabNetworkInteractable.cs" t="Include" />
           <e p="XROffsetGrabInteractable.cs" t="Include" />
         </e>
+        <e p="XRSocketInteractorTag.cs" t="Include" />
       </e>
       <e p="ForensicVRProjectOculus.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

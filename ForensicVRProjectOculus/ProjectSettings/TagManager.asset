@@ -6,6 +6,7 @@ TagManager:
   tags:
   - powderBrush
   - canPowder
+  - hairFiber
   layers:
   - Default
   - TransparentFX
