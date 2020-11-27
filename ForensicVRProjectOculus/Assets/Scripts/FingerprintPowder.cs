@@ -14,7 +14,7 @@ public class FingerprintPowder : MonoBehaviour
     public void Start()
     { 
         fingerprint.GetComponent<Renderer>().material.color = powderColor;
-        Debug.Log("powder color is " + powderColor);
+        //Debug.Log("powder color is " + powderColor);
     }
 
     public void OnTriggerEnter(Collider other)
