@@ -7,6 +7,7 @@ TagManager:
   - powderBrush
   - canPowder
   - hairFiber
+  - ALS
   layers:
   - Default
   - TransparentFX
