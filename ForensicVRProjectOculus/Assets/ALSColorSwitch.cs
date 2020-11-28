@@ -5,38 +5,45 @@ using UnityEngine;
 
 public class ALSColorSwitch : MonoBehaviour
 {
+    public GameObject alsLight;
     public List<Color> lightColors;
     public Light currentLight;
     public Color myLightColor;
+    public float delay = 0f;
+    public int triggerPress = 0;
     
     private void Start()
     {
         currentLight = GetComponent<Light>();
-        myLightColor = GetComponent<Light>().color;
-        
-        //currentLight.enabled = false;
-        ChangeLight();
+        currentLight.enabled = false;
     }
     
     public void ChangeLight()
     {
         currentLight.enabled = true;
-        int i = 0;
-        foreach (var light in lightColors)
+        StartCoroutine(LightChange());
+        triggerPress += 1;
+        if (triggerPress > lightColors.Count)
         {
-            if (i < lightColors.Count)
-            {
-                i++;
-                //currentLight.color = lightColors[i];
-                myLightColor = light;
-                currentLight.color = myLightColor;
-                Debug.Log("the light is now " + currentLight.color + "my light color is " + myLightColor);
-                
-            }
-            else if (i >= lightColors.Count)
-            {
-                i = 0;
-            }
+            triggerPress = 0;
         }
+    }
+
+    public void TurnOffLight()
+    {
+        currentLight.enabled = false;
+        triggerPress = 0;
+    }
+
+    IEnumerator LightChange()
+    {
+        //int i = 0;
+        if(currentLight.enabled == true)
+        {
+            myLightColor = lightColors[triggerPress];
+            alsLight.GetComponent<Light>().color = myLightColor;
+            Debug.Log("the light is now " + currentLight.color + "my light color is " + myLightColor);
+        }
+        yield return new WaitForSeconds(delay);
     }
 }

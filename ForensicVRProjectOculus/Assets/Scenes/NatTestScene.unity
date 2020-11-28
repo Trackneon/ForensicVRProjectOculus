@@ -1429,7 +1429,7 @@ GameObject:
   - component: {fileID: 365227864}
   - component: {fileID: 365227866}
   - component: {fileID: 365227865}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: tweezers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2496,6 +2496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed0472a50dbd4e346a3f21d360b7adc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alsLight: {fileID: 504714000}
   lightColors:
   - {r: 0.033018887, g: 0.06340557, b: 1, a: 1}
   - {r: 0.026666403, g: 1, b: 0, a: 1}
@@ -2503,6 +2504,8 @@ MonoBehaviour:
   - {r: 1, g: 1, b: 1, a: 1}
   currentLight: {fileID: 504714002}
   myLightColor: {r: 0, g: 0, b: 0, a: 0}
+  delay: 0.1
+  triggerPress: 0
 --- !u!1 &528981352
 GameObject:
   m_ObjectHideFlags: 0
@@ -3226,7 +3229,18 @@ MonoBehaviour:
       m_Calls: []
   m_OnSelectExit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 504714003}
+        m_MethodName: TurnOffLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnActivate:
     m_PersistentCalls:
       m_Calls:
@@ -3377,7 +3391,7 @@ GameObject:
   - component: {fileID: 995787553}
   - component: {fileID: 995787555}
   - component: {fileID: 995787554}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: snapZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4024,7 +4038,7 @@ GameObject:
   - component: {fileID: 1114529844}
   - component: {fileID: 1114529847}
   - component: {fileID: 1114529846}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5014,7 +5028,7 @@ GameObject:
   - component: {fileID: 1307284291}
   - component: {fileID: 1307284294}
   - component: {fileID: 1307284293}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
