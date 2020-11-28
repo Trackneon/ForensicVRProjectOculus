@@ -1429,7 +1429,7 @@ GameObject:
   - component: {fileID: 365227864}
   - component: {fileID: 365227866}
   - component: {fileID: 365227865}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: tweezers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3391,7 +3391,7 @@ GameObject:
   - component: {fileID: 995787553}
   - component: {fileID: 995787555}
   - component: {fileID: 995787554}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: snapZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4038,7 +4038,7 @@ GameObject:
   - component: {fileID: 1114529844}
   - component: {fileID: 1114529847}
   - component: {fileID: 1114529846}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5028,7 +5028,7 @@ GameObject:
   - component: {fileID: 1307284291}
   - component: {fileID: 1307284294}
   - component: {fileID: 1307284293}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7060,7 +7060,7 @@ GameObject:
   - component: {fileID: 1653587116}
   - component: {fileID: 1653587117}
   - component: {fileID: 1653587118}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: fiber
   m_TagString: hairFiber
   m_Icon: {fileID: 0}
@@ -7967,7 +7967,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2055065032}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: fiberPickUpTransform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
