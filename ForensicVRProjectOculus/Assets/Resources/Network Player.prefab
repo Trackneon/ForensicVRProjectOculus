@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &6560185942185691202
+--- !u!114 &473117634644243534
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -268,8 +268,8 @@ MonoBehaviour:
   - {fileID: 2498729025696225170}
   - {fileID: 6286239178660418089}
   - {fileID: 7597891412861997831}
-  - {fileID: 990909849796880338}
-  - {fileID: 6560185942185691202}
+  - {fileID: 5206642238491718740}
+  - {fileID: 473117634644243534}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5373255907802352470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac630f2512fe6b04f95b4d9919118aa1, type: 3}
+  m_Script: {fileID: 11500000, guid: c1b31ff2102e883458fe87911f7a7bf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 3610221286893555521}
@@ -290,7 +290,7 @@ MonoBehaviour:
   rightHand: {fileID: 5138891061108591501}
   leftHandAnimator: {fileID: 5828560585512957194}
   rightHandAnimator: {fileID: 31414561246464940}
---- !u!114 &990909849796880338
+--- !u!114 &5206642238491718740
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

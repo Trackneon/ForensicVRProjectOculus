@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - powderBrush
+  - canPowder
+  - hairFiber
+  - ALS
   layers:
   - Default
   - TransparentFX
@@ -18,7 +21,7 @@ TagManager:
   - Grab
   - Ground
   - Grab Ignore Ray
-  - 
+  - Walls
   - 
   - 
   - 
